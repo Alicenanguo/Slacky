@@ -19,12 +19,12 @@ def seed_users():
             'image_url':'https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/19/UP2538-CUSA05620_00-AV00000000000124/image?w=320&h=320&bg_color=000000&opacity=100&_version=00_09_000',
             'is_online':True,
             'status': 'Lorem amet ipsum dolor sit!!'
-        },             
+        },
         {
             'username': 'Yizhou',
             'email': 'yizhou@aa.io',
             'password':'password',
-            'image_url':'https://media.licdn.com/dms/image/C5603AQFk_0ySc7KuHA/profile-displayphoto-shrink_100_100/0/1516481604462?e=1676505600&v=beta&t=Mcy4taadYjrr5ntlJpBTwcjTF4VWw754dv7PskMEvQg',
+            'image_url':'https://i.pinimg.com/originals/69/25/08/69250864224fd2d57d6dfe96d4cd1431.png',
             'is_online':True,
             'status': 'Hire me!'
         },
@@ -40,7 +40,7 @@ def seed_users():
             'username': 'Wanting',
             'email': 'wanting@aa.io',
             'password':'password',
-            'image_url':'https://media.licdn.com/dms/image/D4E03AQFSPC01Wvhn6A/profile-displayphoto-shrink_200_200/0/1671233764309?e=1676505600&v=beta&t=LIGCsZQNpwvsbWEeCfmRHWOoe_tIAxJ-62t8MlCBM8k',
+            'image_url':'https://media.istockphoto.com/id/881537980/vector/little-funny-bunny.jpg?s=612x612&w=0&k=20&c=XFOvdzw9dre8TbLCeph2T7Ywg8gBOLluiuUTlUGf_fE=',
             'is_online':True,
             'status': 'Hire me!'
         },
@@ -51,13 +51,13 @@ def seed_users():
             'image_url':'https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png',
             'is_online':True,
             'status': 'Hire me!'
-        },           
+        },
     ]
 
     for user in USERS:
         demo = User(
-            username=user['username'], 
-            email=user['email'], 
+            username=user['username'],
+            email=user['email'],
             password=user['password'],
             image_url =user['image_url'],
             is_online = user['is_online'],
